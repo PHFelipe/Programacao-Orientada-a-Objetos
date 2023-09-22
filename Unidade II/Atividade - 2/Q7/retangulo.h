@@ -1,27 +1,27 @@
-// #ifndef retangulo_h
-// #define retangulo_h
+#ifndef retangulo_h
+#define retangulo_h
 
-// class Retangulo {
-// public:
-//     Retangulo(double altura =1.0, double largura = 1.0);
+class Retangulo {
+public:
+    Retangulo(double altura =1.0, double largura = 1.0);
 
-//     void setAltura(double altura);
+    void setAltura(double altura);
 
-//     double getAltura() const;
+    double getAltura() const;
 
-//     void setLargura(double largura);
+    void setLargura(double largura);
 
-//     double getLargura() const;
+    double getLargura() const;
 
-//     double calcularPerimetro() const;
+    double calcularPerimetro() const;
 
-//     double calcularArea() const;
+    double calcularArea() const;
 
-//     void desenhar() const;
+    void desenhar() const;
 
-// private:
-//     double RetanguloAltura;
-//     double RetanguloLargura;
-// };
+private:
+    double RetanguloAltura;
+    double RetanguloLargura;
+};
 
-// #endif
+#endif

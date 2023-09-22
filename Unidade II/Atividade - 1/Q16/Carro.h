@@ -1,30 +1,30 @@
-// #ifndef CARRO_H
-// #define CARRO_H
+#ifndef CARRO_H
+#define CARRO_H
 
-// #include <string>
-// using std::string;
+#include <string>
+using std::string;
 
-// //Interface
-// class Carro
-// {
+//Interface
+class Carro
+{
 
-// public:
+public:
 
-//   Carro(string nome, int ano);
+  Carro(string nome, int ano);
 
-//   void setMarca(string nome);
+  void setMarca(string nome);
 
-//   string getMarca();
+  string getMarca();
 
-//   void displayMessage();
+  void displayMessage();
 
-//   void setAno(int ano);
+  void setAno(int ano);
 
-//   int getAno();
+  int getAno();
 
-// private:
-//   string marca;
-//   int carroano;
-// };
+private:
+  string marca;
+  int carroano;
+};
 
-// #endif
+#endif

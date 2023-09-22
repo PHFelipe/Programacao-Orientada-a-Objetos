@@ -1,32 +1,32 @@
-// #ifndef pessoa_h
-// #define pessoa_h
+#ifndef pessoa_h
+#define pessoa_h
 
-// #include <string>
+#include <string>
 
-// using namespace std;
+using namespace std;
 
-// class Pessoa {
-// public:
-//   Pessoa(const string &nome, const string &CPF = "", bool CPFvalido = true);
+class Pessoa {
+public:
+  Pessoa(const string &nome, const string &CPF = "", bool CPFvalido = true);
 
-//   string getNome() const;
+  string getNome() const;
 
-//   void setNome(const string &nome);
+  void setNome(const string &nome);
 
-//   string getCPF() const;
+  string getCPF() const;
 
-//   void setCPF(const string &CPF);
+  void setCPF(const string &CPF);
 
-//   bool getCPFvalido() const;
+  bool getCPFvalido() const;
 
-//   void setCPFvalido(bool CPFvalido);
+  void setCPFvalido(bool CPFvalido);
 
-//   void apresentar() const;
+  void apresentar() const;
 
-// private:
-//   string PessoaNome;
-//   string PessoaCPF;
-//   bool CPFvalido;
-// };
+private:
+  string PessoaNome;
+  string PessoaCPF;
+  bool CPFvalido;
+};
 
-// #endif
+#endif

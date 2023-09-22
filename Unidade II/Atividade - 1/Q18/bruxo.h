@@ -1,33 +1,33 @@
-// #ifndef bruxo_h
-// #define bruxo_h
+#ifndef bruxo_h
+#define bruxo_h
 
-// #include <string>
-// using std::string;
+#include <string>
+using std::string;
 
-// class bruxo{
+class bruxo{
 
-// public:
-//   bruxo(string nome, string casa,string feitico);
+public:
+  bruxo(string nome, string casa,string feitico);
 
-//   void setNome(string nome);
+  void setNome(string nome);
 
-//   void setCasa(string casa);
+  void setCasa(string casa);
 
-//   void setFeitico(string feitico);
+  void setFeitico(string feitico);
 
-//   string getNome();
+  string getNome();
 
-//   string getCasa();
+  string getCasa();
 
-//   string getFeitico();
+  string getFeitico();
 
-//   void lancarFeitico(string feitico);
+  void lancarFeitico(string feitico);
 
-//   void displaymessage();
+  void displaymessage();
 
-// private: 
-//   string bruxoNome;
-//   string bruxoCasa;
-//   string bruxoFeitico;
-// };
-// #endif
+private: 
+  string bruxoNome;
+  string bruxoCasa;
+  string bruxoFeitico;
+};
+#endif

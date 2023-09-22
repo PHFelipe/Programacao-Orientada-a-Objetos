@@ -1,17 +1,17 @@
-// #ifndef banco_h
-// #define banco_h
+#ifndef banco_h
+#define banco_h
 
-// class ContaBanco {
-// public:
-//   ContaBanco(double saldo);
+class ContaBanco {
+public:
+  ContaBanco(double saldo);
 
-//   double getSaldo();
-//   void creditar(double quantia);
-//   void debitar(double quantia);
-//   void displaymessage();
+  double getSaldo();
+  void creditar(double quantia);
+  void debitar(double quantia);
+  void displaymessage();
 
-// private:
-//   double saldo;
-// };
+private:
+  double saldo;
+};
 
-// #endif
+#endif

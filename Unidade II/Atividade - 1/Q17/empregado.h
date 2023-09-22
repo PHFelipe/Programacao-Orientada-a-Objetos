@@ -1,33 +1,33 @@
-// #ifndef empregado_H
-// #define empregado_H
+#ifndef empregado_H
+#define empregado_H
 
-// #include <string>
+#include <string>
 
-// using std::string;
+using std::string;
 
-// class empregado {
+class empregado {
 
-// public:
-//   empregado(string nome, string sobrenome, int salario);
+public:
+  empregado(string nome, string sobrenome, int salario);
 
-//   void setNome(string nome);
+  void setNome(string nome);
 
-//   void setSobrenome(string sobrenome);
+  void setSobrenome(string sobrenome);
 
-//   void setSalario(int salario);
+  void setSalario(int salario);
 
-//   string getNome();
+  string getNome();
 
-//   string getSobrenome();
+  string getSobrenome();
 
-//   void displaymessage();
+  void displaymessage();
 
-//   int getSalario();
+  int getSalario();
 
-// private:
-//   string empregadoNome;
-//   string empregadoSobrenome;
-//   int empregadoSalario;
-// };
+private:
+  string empregadoNome;
+  string empregadoSobrenome;
+  int empregadoSalario;
+};
 
-// #endif
+#endif
